@@ -410,8 +410,8 @@ GameObject:
   - component: {fileID: 1015655687}
   - component: {fileID: 1015655686}
   - component: {fileID: 1015655685}
-  - component: {fileID: 1015655684}
   - component: {fileID: 1015655683}
+  - component: {fileID: 1015655684}
   m_Layer: 5
   m_Name: PlayAgain
   m_TagString: Untagged
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1015655681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19a20ecba3cdd45078d29764925b5c1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 236784cb4ed0940e9b030cc90adb2e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1015655683}
@@ -592,8 +592,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1015655684}
-        m_TargetAssemblyTypeName: RestartButtonBehaviour, Assembly-CSharp
-        m_MethodName: OnRestartButtonPressed
+        m_TargetAssemblyTypeName: PlayButtonBehaviour, Assembly-CSharp
+        m_MethodName: OnPlayButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
