@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //pick up variables;
+    int totalPickUps = 1;
+    public bool hasPickUp = false;
+    public bool hasMilk = false;
+    public bool hasTrap = false;
+
+    //movement and animation variables
     public CharacterController controller;
     public Rigidbody2D rb;
     public Joystick joystick;
     public float runSpeed = 2f;
     Vector2 movemenet;
     public Animator animator;
-  
+    //
 
     // Update is called once per frame
     void Update()//INPUT 
